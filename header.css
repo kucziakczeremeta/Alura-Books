@@ -4,3 +4,20 @@
     background-image: url("./img/image.png");
     display: inline;
 }
+.lista-menu{
+    display: none;
+    position: absolute;
+
+}
+
+.lista-menu-link{
+background: var(--azul-degrade);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-transform: uppercase;
+
+}
+.container-botao{
+    display: none;
+}
