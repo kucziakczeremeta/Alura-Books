@@ -2,7 +2,7 @@
     background: var(--azul-degrade);
     color: var(--branco);
     text-align: center;
-    padding: 2.5em 2em;
+    padding: 6em 0em;
 }
 
 .banner-titulo {
@@ -45,4 +45,8 @@
     .banner-pesquisa::placeholder{
         background-position: 7em;
     }
-    
+    @media screen and (min-width: 1728px){
+            .banner-pesquisa{
+                widht: 35%;
+            }}
+            
